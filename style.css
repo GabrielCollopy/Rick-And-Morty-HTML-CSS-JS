@@ -1,0 +1,36 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: blueviolet;
+}
+
+h1 {
+    color: greenyellow;
+    display: flex;
+    justify-content: center;
+}
+
+.personagens {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    list-style: none;
+    padding: 10px;
+}
+
+.personagem {
+    background-color: greenyellow;
+    display: grid;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 10px;
+    color: blueviolet;
+}
+
+.personagem img {
+    border: 1px solid black;
+    border-radius: 6px;
+}
